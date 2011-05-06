@@ -4,5 +4,5 @@ function main(args){
 	
 	
 	alert("this is my js!");
-	test
+	test("test");
 }
