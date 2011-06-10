@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<script type="text/javascript" src="../plugin.js"></script>
+	<script>
+		window.onload = function() {
+			var provider = new eclipse.PluginProvider();
+			provider.registerServiceProvider("profilePlugin", {
+				info : function() {
+					return {
+						name : "Sample user profile plugin",
+					};
+				},
+				getDivContent: function() {
+				  	var content = {"sections" : [
+				  	                             {"id": "sampleInformation", "name" : "Sample user profile info",
+				  	                             		"data" : [
+				  	                                        {"type": "TextBox", "props": {"id": "sample1", "readOnly" : false, "name" : "Sample1"}, "label" : "Sample1"},
+				  	                                        {"type": "TextBox", "props": {"id": "sample2", "readOnly" : true, "value": "sample2", "name" : "sample2"},
+				  	                                        		"label" : "Sample2"}
+				  	                                             ]
+				  	                             }
+				  	                             ]
+				  	};
+				  	return content;
+				}
+			});
+			provider.connect();
+		};
+	</script>
+</head>
+<body>
+</body>
+</html>
