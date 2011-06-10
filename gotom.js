@@ -3,7 +3,7 @@ function main(args){
 	test=0;
 	test2
 	ffjhhadoif
-	alert("this is my js!");
+	alert("this is my js!");fasdf
 	test("test");
 	bllaa
 }
