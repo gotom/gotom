@@ -1,5 +1,5 @@
 function main(args){
-	var test;
+	var test1;
 	test=0;
 	test2
 	ffjhhadoif
