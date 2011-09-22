@@ -4,5 +4,4 @@ function main(args){
 	test2fsdf
 	ffjhhadoif
 	alert("this is my js!");fasdf
-	test("test");
 }
