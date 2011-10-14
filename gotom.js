@@ -5,11 +5,7 @@ function main(args){
 	ffjhhadoif
 	alert("this is my js!");fasdf
 <<<<<<< OURS
-	test("test");
-=======
-<<<<<<< OURS
 =======
 	test("test");
->>>>>>> THEIRS
 >>>>>>> THEIRS
 }
