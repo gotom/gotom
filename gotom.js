@@ -4,6 +4,11 @@ function main(args){
 	test2fsdf
 	ffjhhadoif
 	alert("this is my js!");fasdf
+<<<<<<< HEAD
 	test("test");aasdf
 	bllaaasdfasdfasdfasdf
+=======
+	test("test");
+	bllaaasdfasdfasdfasdfdupadupa
+>>>>>>> 3a8b5e03b5ef8b06fb9403b5cf205a835917cc22
 }
