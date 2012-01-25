@@ -5,5 +5,6 @@ function main(args){
 	ffjhhadoif
 	alert("this is my js!");fasdf
 	test("test");
-	bllaaasdfasdfasdfasdf
+	bllaaasdfasdfasdfasd
+	try
 }
