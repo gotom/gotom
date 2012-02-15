@@ -1,3 +1,3 @@
 function main(args){
-dupa
+dupa jas
 }
