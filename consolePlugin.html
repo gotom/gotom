@@ -1,0 +1,27 @@
+<html>
+<head>
+<script src="http://orionhub.org/orion/plugin.js"></script>
+<script>
+ var serviceImpl = {
+   callback: function(args) {
+     return "'" + args.string + "'";
+   }
+ };
+ var serviceProperties = { 
+   name: "echo",
+   description: "Echo a string",
+   parameters: [{
+     name: "string",
+     type: "string",
+     description: "The string to echo back"
+   }]
+ };
+ var provider = new orion.PluginProvider();
+ provider.registerServiceProvider(
+   "orion.shell.command",
+   serviceImpl,
+   serviceProperties);
+ provider.connect();
+</script>
+</head>
+</html>
